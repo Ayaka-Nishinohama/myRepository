@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Ayaka
+ *
+ */
+module HelloWorld {
+}
