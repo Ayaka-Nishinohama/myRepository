@@ -1,4 +1,4 @@
-package Curriculum_New_question;
+package curriculum_New_question;
 
 public class Curriculum_New_1_4 {
 
