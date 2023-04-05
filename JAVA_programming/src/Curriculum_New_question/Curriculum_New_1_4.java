@@ -1,6 +1,6 @@
-package curriculum_New_question;
+package Curriculum_New_question;
 
-public class curriculum_New_1_4 {
+public class Curriculum_New_1_4 {
 
     public static void main(String[] args) {
    	 
