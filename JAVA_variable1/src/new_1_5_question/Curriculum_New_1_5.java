@@ -18,10 +18,7 @@ public class Curriculum_New_1_5 {
         // 「好きな食べ物は○○です」
 
     	// Q1を下記に記載
-//		
-//		Food foods = new Food();
-//		foods.food = "寿司";
-//		
+
 		String name;
 		byte age;
 		double height,weight;
