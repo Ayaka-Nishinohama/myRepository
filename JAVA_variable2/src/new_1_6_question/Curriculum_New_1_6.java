@@ -40,7 +40,7 @@ public class Curriculum_New_1_6 {
 //		あなたの年齢はおそらく〇〇歳ですね？
 		
 		Random rand = new Random();
-		int age = rand.nextInt(100);
+		int age = rand.nextInt(101);
 		
 		System.out.println("あなたの年齢を予想します。");
 		System.out.println("あなたの年齢はおそらく"+age+"歳ですね？");
