@@ -23,15 +23,15 @@ public class Curriculum_New_1_9 {
 //		もし score が 80点以上なら「〇〇さんは□□点です。たいへんよくできました。」とコンソールに出力して下さい。
 		String name = "彩香";
 		Random rand = new Random();
-		int score = rand.nextInt(100);
+		int score = rand.nextInt(101);
 		
-		if(score < 40) {
+		if(score <= 40) {
 			System.out.println(name + "さんは" + score + "点です。もう少し頑張りましょう。");
-		}else if(score > 40 && score < 60) {
+		}else if(score >= 40 && score <= 60) {
 			System.out.println(name + "さんは" + score + "点です。もう少しでした。");
-		}else if(score > 60 && score < 80) {
+		}else if(score >= 60 && score <= 80) {
 			System.out.println(name + "さんは" + score + "点です。よくできました。");
-		}else if(score > 80) {
+		}else if(score >= 80) {
 			System.out.println(name + "さんは" + score + "点です。たいへんよくできました。");
 		}
 
@@ -44,8 +44,12 @@ public class Curriculum_New_1_9 {
 		int isTired = 0;
 		String study = "カリキュラム";
 		
-		String result = (isTired == 0) ? "私はとても元気です。" + study + "を続けます。" : "私は疲れています。";
+		String result = (isTired == 0) ? "私はとても元気です。" : "私は疲れています。";
 		System.out.println(result);
+		
+		if(isTired == 0) {
+			System.out.println(study + "を続けます。");
+		}
 		
 	}
 }
