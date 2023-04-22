@@ -46,10 +46,8 @@ public class Curriculum_New_1_9 {
 		
 		String result = (isTired == 0) ? "私はとても元気です。" : "私は疲れています。";
 		System.out.println(result);
+		System.out.println(isTired == 0 ? study + "を続けます。" : "");
 		
-		if(isTired == 0) {
-			System.out.println(study + "を続けます。");
 		}
 		
 	}
-}
