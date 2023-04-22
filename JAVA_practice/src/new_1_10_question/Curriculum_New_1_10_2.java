@@ -14,7 +14,7 @@ public class Curriculum_New_1_10_2 {
 						*/
 		for(int i = 1; i <= 9; i++) {
 			for(int s = 1; s <= 9; s++) {
-				System.out.println(i + "×" + s + "=" + i*s);
+				System.out.print(i + "×" + s + "=" + i*s + " ");
 				if(s % 9 == 0) {
 					System.out.println("");
 				}
