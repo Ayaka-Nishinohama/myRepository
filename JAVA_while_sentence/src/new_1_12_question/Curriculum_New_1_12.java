@@ -18,13 +18,17 @@ public class Curriculum_New_1_12 {
 						100は偶数です
 	    */
 		int i = 1;
+		
 		while(i < 101) {
+			
 		if(i % 2 == 0) {
 			System.out.println(i + "は偶数です");
 		}else{
 			System.out.println(i + "は奇数です");
 		}
+		
 		i ++;
+		
 		}
 	}
 
