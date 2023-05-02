@@ -11,8 +11,11 @@ public class Curriculum_New_1_15 {
 					  生徒4：国語72点、数学55点、英語80点
 		*/
 		
+		// 配列testを初期化
+		
 		int[][] test = new int[4][4];
 		
+		// 配列testに値を代入
 		test[0][0] = 1;
 		test[0][1] = 64;
 		test[0][2] = 73;
@@ -33,11 +36,15 @@ public class Curriculum_New_1_15 {
 		test[3][2] = 55;
 		test[3][3] = 80;
 		
+		// 配列の値を順番にコンソールに表示
 		for(int i = 0; i < 4; i++) {
 			System.out.println("生徒" + test[i][0] + "：国語" + test[i][1] + "点、数学" + test[i][2] + "点、英語" + test[i][3] + "点");
 		}
 		
 		System.out.println("");
+		
+		
+		//　------------------------------------------------------------------------
 		
 	   /*	
 	    ②それぞれの教科の平均点を表示してください。
@@ -46,19 +53,25 @@ public class Curriculum_New_1_15 {
 				  英語の平均点は○○点です。
 	*/
 		
+		// 国語の平均点を求める為の変数を定義
 		int sum1 = 0;
+		// 国語の点数を和算する
 		sum1 = test[0][1] + test[1][1] + test[2][1] + test[3][1];
-		
+		// 国語の点数の平均値を求め、コンソールに表示
 		System.out.println("国語の平均点は" + sum1 / test.length + "点です。");
 		
+		// 数学の平均点を求める為の変数を定義
 		int sum2 = 0;
+		// 数学の点数を和算する
 		sum2 = test[0][2] + test[1][2] + test[2][2] + test[3][2];
-		
+		// 数学の点数の平均値を求め、コンソールに表示
 		System.out.println("数学の平均点は" + sum2 / test.length + "点です。");
 		
+		// 英語の平均点を求める為の変数を定義
 		int sum3 = 0;
+		// 英語の点数を和算する
 		sum3 = test[0][3] + test[1][3] + test[2][3] + test[3][3];
-		
+		// 英語の点数の平均値を求め、コンソールに表示
 		System.out.println("英語の平均点は" + sum3 / test.length + "点です。");
 	}
 
