@@ -1,5 +1,4 @@
 package new_1_18_question;
-import java.util.Arrays;
 
 public class Curriculum_New_1_18 {
 
