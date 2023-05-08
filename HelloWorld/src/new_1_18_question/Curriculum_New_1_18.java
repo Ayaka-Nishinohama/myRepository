@@ -7,6 +7,12 @@ public class Curriculum_New_1_18 {
 		//　Q1のメソッドを呼び出し
 		hello();
 		
+		//　Q2のメソッドを呼び出し
+		num(4,5);
+		
+		//　Q3のメソッドを呼び出し
+		nums();
+		
 		//　Q4のメソッドを呼び出し
 		num(3.6,3.8);
 		
@@ -57,7 +63,7 @@ public class Curriculum_New_1_18 {
 	// Q3：引数として整数の配列を渡すと、受け取った値を順番にコンソールに出力するメソッドを作成してください
 
 	// Q3のメソッド
-	public static void nums(int[] args){
+	public static void nums(){
 
 		// 配列numsを初期化
 		int[] nums = new int[3];
