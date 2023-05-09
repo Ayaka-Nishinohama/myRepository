@@ -11,7 +11,7 @@ public class Curriculum_New_1_18 {
 		num(4,5);
 		
 		//　Q3のメソッドを呼び出し
-		nums();
+		nums(new int[] {3,5,7});
 		
 		//　Q4のメソッドを呼び出し
 		num(3.6,3.8);
@@ -63,19 +63,11 @@ public class Curriculum_New_1_18 {
 	// Q3：引数として整数の配列を渡すと、受け取った値を順番にコンソールに出力するメソッドを作成してください
 
 	// Q3のメソッド
-	public static void nums(){
-
-		// 配列numsを初期化
-		int[] nums = new int[3];
-		
-		// 配列に整数を代入
-		nums[0] = 1;
-		nums[1] = 2;
-		nums[2] = 3;
+	public static void nums(int [] x){
 
 		// 配列の値を順番にコンソールに出力
-		for(int i = 0; i < nums.length; i++){
-			System.out.println(nums[i]);
+		for(int i = 0; i < x.length; i++){
+			System.out.println(x[i]);
 			
 		}
 	}
@@ -150,10 +142,7 @@ public class Curriculum_New_1_18 {
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
 
 	// Q7のメソッド
-	public static void judge(double augs) {
-		
-		// 変数を初期化
-		double d = 0;
+	public static void judge(double d) {
 		
 		// 受け取った値が50以上ならばtrueをコンソールに表示
 		if(d >= 50) {
