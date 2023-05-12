@@ -22,8 +22,8 @@ public class Curriculum_New_1_18 {
 		//　Q6のメソッドを呼び出し、Q7のメソッドで使用する為変数dに代入
 		double d = avr(i);
 		
-		// Q7のメソッドを呼び出し
-		judge(d);
+		// Q7のメソッドを呼び出し、コンソールに表示
+		System.out.println(judge(d));
 
 	}
 	
@@ -142,15 +142,14 @@ public class Curriculum_New_1_18 {
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
 
 	// Q7のメソッド
-	public static void judge(double d) {
+	public static String judge(double d) {
 		
-		// 受け取った値が50以上ならばtrueをコンソールに表示
+		// 受け取った値が50以上ならばtrueを返す
 		if(d >= 50) {
-			System.out.println("true");
-			
-			// それ以外はfalseをコンソールに表示
+			return "true";
+			// それ以外はfalse返す
 		}else{
-			System.out.println("false");
+			return "false";
 		}
 		
 	}
