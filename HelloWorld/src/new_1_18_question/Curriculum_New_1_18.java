@@ -147,7 +147,7 @@ public class Curriculum_New_1_18 {
 		// 受け取った値が50以上ならばtrueを返す
 		if(d >= 50) {
 			return true;
-			// それ以外はfalse返す
+		// それ以外はfalse返す
 		}else{
 			return false;
 		}
