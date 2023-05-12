@@ -142,14 +142,14 @@ public class Curriculum_New_1_18 {
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
 
 	// Q7のメソッド
-	public static String judge(double d) {
+	public static boolean judge(double d) {
 		
 		// 受け取った値が50以上ならばtrueを返す
 		if(d >= 50) {
-			return "true";
+			return true;
 			// それ以外はfalse返す
 		}else{
-			return "false";
+			return false;
 		}
 		
 	}
