@@ -5,13 +5,14 @@ public class Curriculum_New_1_18 {
 	public static void main(String[] args) {
 
 		//　Q1のメソッドを呼び出し
-		hello();
+		hello("Hello JavaSE ",11);
 		
 		//　Q2のメソッドを呼び出し
 		num(4,5);
 		
 		//　Q3のメソッドを呼び出し
-		nums(new int[] {3,5,7});
+		int[] h = {3,5,7};
+		nums(h);
 		
 		//　Q4のメソッドを呼び出し
 		num(3.6,3.8);
@@ -32,11 +33,7 @@ public class Curriculum_New_1_18 {
 	// Q1：引数に文字列型と整数型をいれてコンソールに「Hello JavaSE 11」と出力するメソッドを作成してください。
 
 	// Q1のメソッド
-	public static void hello() {
-		
-		// コンソールに出力する為の値を代入
-		String java = "Hello JavaSE ";
-		int ver = 11;
+	public static void hello(String java,int ver) {
 		
 		// コンソールに出力
 		System.out.println(java + ver);
@@ -51,7 +48,7 @@ public class Curriculum_New_1_18 {
 	public static void num(int num1,int num2) {
 		
 		// 引数に渡した値同士を乗算する変数を定義
-		int result =num1 * num2;
+		int result = num1 * num2;
 		
 		// コンソールに出力
 		System.out.println(result);
@@ -63,11 +60,11 @@ public class Curriculum_New_1_18 {
 	// Q3：引数として整数の配列を渡すと、受け取った値を順番にコンソールに出力するメソッドを作成してください
 
 	// Q3のメソッド
-	public static void nums(int [] x){
+	public static void nums(int[] h){
 
 		// 配列の値を順番にコンソールに出力
-		for(int i = 0; i < x.length; i++){
-			System.out.println(x[i]);
+		for(int i = 0; i < h.length; i++){
+			System.out.println(h[i]);
 			
 		}
 	}
@@ -101,7 +98,7 @@ public class Curriculum_New_1_18 {
 		
 		// ランダムに配列の値を生成し、格納後コンソールへ出力
 		for(int i = 0; i < num3; i++){
-			random[i] = (int)(Math.random()*101);
+			random[i] = (int)(Math.random() * 101);
 			System.out.println(random[i]);
 		}
 		
