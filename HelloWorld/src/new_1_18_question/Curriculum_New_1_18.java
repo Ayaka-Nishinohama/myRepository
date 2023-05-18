@@ -5,7 +5,7 @@ public class Curriculum_New_1_18 {
 	public static void main(String[] args) {
 
 		//　Q1のメソッドを呼び出し
-		hello("Hello JavaSE ",11);
+		hello("Hello ","JavaSE ",11);
 		
 		//　Q2のメソッドを呼び出し
 		num(4,5);
@@ -33,10 +33,10 @@ public class Curriculum_New_1_18 {
 	// Q1：引数に文字列型と整数型をいれてコンソールに「Hello JavaSE 11」と出力するメソッドを作成してください。
 
 	// Q1のメソッド
-	public static void hello(String java,int ver) {
+	public static void hello(String hello,String java,int ver) {
 		
 		// コンソールに出力
-		System.out.println(java + ver);
+		System.out.println(hello + java + ver);
 		
 	}
 	
