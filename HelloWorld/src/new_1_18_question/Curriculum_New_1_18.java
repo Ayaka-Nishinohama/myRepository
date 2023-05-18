@@ -77,7 +77,7 @@ public class Curriculum_New_1_18 {
 	public static void num(double num1,double num2) {
 		
 		// 引数同士を和算する変数を定義
-		double result =num1 + num2;
+		double result = num1 + num2;
 		
 		// 結果をコンソールに出力
 		System.out.println(result);
