@@ -30,7 +30,7 @@ public class Animal {
 		Date date = new Date();
 
 		// 取得した日時をフォーマット
-		SimpleDateFormat df = new SimpleDateFormat("yyyy/MM/dd E HH:mm:ss");
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd H:m:s");
 
 		// フォーマットした日時をコンソールに表示
 		System.out.println(df.format(date));
