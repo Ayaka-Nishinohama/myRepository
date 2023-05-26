@@ -29,7 +29,7 @@ public class Main extends Sub{
 		 */
 
 		//Subクラスのdetaメソッドを呼び出し
-		Sub.deta();
+		Sub.deta("彩香");
 
 	}
 

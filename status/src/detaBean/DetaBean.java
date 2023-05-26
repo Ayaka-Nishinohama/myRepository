@@ -2,24 +2,8 @@ package detaBean;
 
 public class DetaBean {
 
-	// 変数nameを定義
-	private String name;
-
-	// ------------------------------------------------------------------------
-
 	// コンストラクタを作成
 	public DetaBean() {}
-
-	// ------------------------------------------------------------------------
-
-	// 変数nameのセッターを作成
-	public String getName() {
-		return name;
-	}
-	// 変数nameのゲッターを作成
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	// ------------------------------------------------------------------------
 
