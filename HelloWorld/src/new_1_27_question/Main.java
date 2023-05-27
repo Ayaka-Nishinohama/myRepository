@@ -47,7 +47,7 @@ public class Main {
 		//Subクラスのインスタンスを作成
 		Sub sub = new Sub();
 		//Subクラスのdetaメソッドを呼び出し、値を代入
-		sub.deta("パンダ",1.9,30);
+		sub.deta("ゾウ",3.2,40);
 
 	}
 
