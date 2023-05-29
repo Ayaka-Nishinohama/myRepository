@@ -1,5 +1,6 @@
 package main;
 import sub.Sub;
+import java.util.Scanner;
 
 public class Main extends Sub{
 
@@ -28,8 +29,21 @@ public class Main extends Sub{
 
 		 */
 
-		//Subクラスのdetaメソッドを呼び出し
-		Sub.deta("彩香");
+		// Scannerクラスのインスタンスを作成
+		// 引数で標準入力System.inを指定する
+		Scanner scanner = new Scanner(System.in);
+	    // 入力を促すメッセージ
+	    System.out.print("名前を入力してください > ");
+		//入力された内容をインスタンスから取得
+		String input_text = scanner.nextLine();
+		//入力された内容を画面に表示
+		System.out.println("こんにちは 「 " + input_text + " 」 さん");
+		// Scannerクラスのインスタンスをクローズ
+		scanner.close();
+		
+		// Subクラスのインスタンスを作成
+		Sub sub = new Sub();
+		
 
 	}
 

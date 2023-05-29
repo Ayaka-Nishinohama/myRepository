@@ -1,4 +1,4 @@
-package detaBean;
+package sub;
 
 public class DetaBean {
 
