@@ -1,6 +1,6 @@
 package sub;
 
-public class Sub extends DetaBean {
+public class Sub extends DataBean {
 
 	// コンストラクタを作成
 	public Sub() {
@@ -8,16 +8,16 @@ public class Sub extends DetaBean {
 		System.out.println("ステータス");
 
 		// detaメソッドを呼び出し
-		deta();
+		data();
 
 		System.out.println("さあ冒険に出かけよう！");
 
 	}
 
-	public static void deta() {
+	public static void data() {
 
 		// それぞれの値をコンソールに出力する為にインスタンスdtを作成
-		DetaBean dt = new DetaBean();
+		DataBean dt = new DataBean();
 
 		// それぞれの値をコンソールに出力
 		System.out.println("HP：" + dt.hp());

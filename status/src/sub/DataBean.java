@@ -1,9 +1,9 @@
 package sub;
 
-public class DetaBean {
+public class DataBean {
 
 	// コンストラクタを作成
-	public DetaBean() {}
+	public DataBean() {}
 
 	// ------------------------------------------------------------------------
 
