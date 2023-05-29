@@ -1,21 +1,21 @@
 package sub;
 
 public class Sub extends DetaBean {
-	
+
 	// コンストラクタを作成
 	public Sub() {
-		
-	System.out.println("ステータス");
-	
-	// detaメソッドを呼び出し
-	deta();
-	
-	System.out.println("さあ冒険に出かけよう！");
-	
+
+		System.out.println("ステータス");
+
+		// detaメソッドを呼び出し
+		deta();
+
+		System.out.println("さあ冒険に出かけよう！");
+
 	}
-	
+
 	public static void deta() {
-		
+
 		// それぞれの値をコンソールに出力する為にインスタンスdtを作成
 		DetaBean dt = new DetaBean();
 
@@ -27,6 +27,6 @@ public class Sub extends DetaBean {
 		System.out.println("防御力：" + dt.gu());
 		System.out.println();
 
-}
-	
+	}
+
 }
