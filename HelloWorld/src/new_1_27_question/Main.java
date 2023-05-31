@@ -1,4 +1,5 @@
 package new_1_27_question;
+import java.util.Scanner;
 
 public class Main {
 
@@ -44,11 +45,62 @@ public class Main {
 
 	  */
 		
-		//Subクラスのインスタンスを作成
-		Sub sub = new Sub();
-		//Subクラスのdetaメソッドを呼び出し、値を代入
-		sub.deta("ゾウ",3.2,40);
-
+		// Scannerクラスのインスタンスを作成
+		// 引数で標準入力System.inを指定する
+		Scanner scanner = new Scanner(System.in);
+		
+		// 入力を促すメッセージ
+		System.out.print("コンソールに文字を入力してください");
+		
+		//入力された内容をインスタンスから取得
+		String input_text = scanner.nextLine();
+		String[] input_text_array = input_text.split("[,:]");
+		
+		//入力された内容を画面に表示
+		System.out.println("動物名：" + input_text_array[0]);
+		System.out.println("体長：" + input_text_array[1] + "m");
+		System.out.println("速度：" + input_text_array[2] + "km/h");
+		System.out.println("学名：パンテラ レオ");
+		
+		System.out.println();
+		
+		System.out.println("動物名：" + input_text_array[3]);
+		System.out.println("体長：" + input_text_array[4] + "m");
+		System.out.println("速度：" + input_text_array[5] + "km/h");
+		System.out.println("学名：ロキソドンタ・サイクロティス");
+		
+		System.out.println();
+		
+		System.out.println("動物名：" + input_text_array[6]);
+		System.out.println("体長：" + input_text_array[7] + "m");
+		System.out.println("速度：" + input_text_array[8] + "km/h");
+		System.out.println("学名：アイルロポダ・メラノレウカ");
+		
+		System.out.println();
+		
+		System.out.println("動物名：" + input_text_array[9]);
+		System.out.println("体長：" + input_text_array[10] + "m");
+		System.out.println("速度：" + input_text_array[11] + "km/h");
+		System.out.println("学名：パン・トゥログロディテス");
+		
+		System.out.println();
+		
+		System.out.println("動物名：" + input_text_array[12]);
+		System.out.println("体長：" + input_text_array[13] + "m");
+		System.out.println("速度：" + input_text_array[14] + "km/h");
+		System.out.println("学名：チャップマンシマウマ");
+		
+		System.out.println();
+		
+		System.out.println("動物名：" + input_text_array[15]);
+		System.out.println("体長：" + input_text_array[16] + "m");
+		System.out.println("速度：" + input_text_array[17] + "km/h");
+		System.out.println("学名：不明");
+		
+		// Scannerクラスのインスタンスをクローズ
+		scanner.close();
+		
+		
 	}
 
 }
