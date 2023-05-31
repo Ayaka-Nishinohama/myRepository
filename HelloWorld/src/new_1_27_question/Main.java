@@ -54,9 +54,11 @@ public class Main {
 		
 		//入力された内容をインスタンスから取得
 		String input_text = scanner.nextLine();
+		
+		// splitメソッドを使用
 		String[] input_text_array = input_text.split("[,:]");
 		
-		//入力された内容を画面に表示
+		//入力された内容を区切り、順番に表示
 		System.out.println("動物名：" + input_text_array[0]);
 		System.out.println("体長：" + input_text_array[1] + "m");
 		System.out.println("速度：" + input_text_array[2] + "km/h");
