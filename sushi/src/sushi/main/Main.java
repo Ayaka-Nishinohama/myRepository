@@ -25,7 +25,6 @@ public class Main {
 		Sub sub = new Sub();
 		// Nowクラス内のNowコンストラクタを呼び出す
 		Now now = new Now();
-
+		
 	}
-
 }

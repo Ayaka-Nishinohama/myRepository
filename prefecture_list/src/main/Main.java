@@ -74,7 +74,6 @@ public class Main {
 
 		// Scannerクラスのインスタンスをクローズ
 		scanner.close();
-
+		
 	}
-
 }
