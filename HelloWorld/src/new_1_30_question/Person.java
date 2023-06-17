@@ -21,7 +21,7 @@ class Person{
 	
 	//BMIを返すメソッドを作成
 	public double bmi() {
-		return weight/height*2;
+		return weight/(height*height);
 	}
 	
 	//インスタンスを数えるメソッドを作成
@@ -32,8 +32,8 @@ class Person{
     //それぞれの値をコンソールに表示
 	public void print() {
 		System.out.println("名前は" + this.name + "です");
-		System.out.println("年は" + this.age + "です");
 		System.out.println("BMIは" + Math.floor(bmi()) + "です");
+		System.out.println("年は" + this.age + "才です");
 		System.out.println("合計" + Person.getCount() + "人です");
 	}
 }
