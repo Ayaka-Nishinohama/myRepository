@@ -6,7 +6,7 @@ class Person{
 	public double height;
 	public double weight;
 	public static int count = 0;
-	
+
 	Person(String name, int age, double height, double weight){
 		this.name = name;
 		this.age = age;
@@ -24,7 +24,7 @@ class Person{
 		System.out.println("名前は" + this.name + "です");
 		System.out.println("年は" + this.age + "です");
 	}
-	
+
 	// インスタンスを数えてコンソールに表示させるprintCountメソッドを作成
 	public static void printCount() {
 		System.out.println("合計" + count + "人です");

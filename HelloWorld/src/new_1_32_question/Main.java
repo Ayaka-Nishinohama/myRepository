@@ -2,7 +2,7 @@ package new_1_32_question;
 
 class Main{
 	public static void main(String[] argos){
-		
+
 		// 問題1：クラスフィールド「count」を定義してください（初期値：0,データ型：int）
 		//
 		// 問題2：Personコンストラクタの中でクラスフィールドcountに1を足してください
@@ -14,13 +14,13 @@ class Main{
 		// 問題5：クラスメソッドの中にクラスフィールド「count」を用いて「合計〇〇人です」と出力してください
 		//
 		// 問題6：クラスメソッド「printCount」を呼び出してください
-		
+
 		Person person1 = new Person("鈴木太郎", 20, 1.7, 60);
 		person1.print();
 
 		Person person2 = new Person("山田花子", 22, 1.5, 40);
 		person2.print();
-		
+
 		// クラスフィールドを呼び出し、countの値をコンソールに表示
 		System.out.println("合計" + Person.count + "人です");
 
