@@ -1,7 +1,7 @@
 package new_1_33_question;
 
 class Main{
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		
 		// 問題1：インスタンスフィールドに「lastName」を追加しましょう
 		//
@@ -16,6 +16,7 @@ class Main{
 		Person person2 = new Person("山田", "花子", 22, 1.5, 40);
 		person2.print();
 
+		// クラスメソッドを呼び出し、countの値をコンソールに表示
 		Person.printCount();
 	}
 }
